@@ -1,0 +1,6 @@
+data/broad/03_undisturbed_slow_rotation_C.hdf5
+data/broad/09_undisturbed_fast_rotation_with_breaks_B.hdf5
+data/broad/15_undisturbed_fast_translation_A.hdf5
+data/broad/21_undisturbed_fast_combined.hdf5
+data/broad/27_disturbed_phone_vibration_B.hdf5
+data/broad/33_disturbed_attached_magnet_2cm.hdf5

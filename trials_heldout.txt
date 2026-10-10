@@ -1,0 +1,13 @@
+data/broad/01_undisturbed_slow_rotation_A.hdf5
+data/broad/04_undisturbed_slow_rotation_with_breaks_A.hdf5
+data/broad/07_undisturbed_fast_rotation_B.hdf5
+data/broad/10_undisturbed_slow_translation_A.hdf5
+data/broad/13_undisturbed_slow_translation_with_breaks_A.hdf5
+data/broad/16_undisturbed_fast_translation_B.hdf5
+data/broad/19_undisturbed_slow_combined_240s.hdf5
+data/broad/22_undisturbed_fast_combined_240s.hdf5
+data/broad/25_disturbed_tapping_B.hdf5
+data/broad/28_disturbed_stationary_magnet_A.hdf5
+data/broad/31_disturbed_stationary_magnet_D.hdf5
+data/broad/34_disturbed_attached_magnet_3cm.hdf5
+data/broad/37_disturbed_office_A.hdf5
