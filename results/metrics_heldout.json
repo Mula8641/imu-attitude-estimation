@@ -1,0 +1,446 @@
+{
+  "per_trial": {
+    "01_undisturbed_slow_rotation_A": {
+      "accel_only": {
+        "rmse_deg": 5.562635705265612,
+        "max_deg": 37.46427966989341,
+        "mean_deg": 4.508891482658595
+      },
+      "gyro_only": {
+        "rmse_deg": 15.94261462230501,
+        "max_deg": 26.093319652484876,
+        "mean_deg": 13.952073722281968
+      },
+      "complementary": {
+        "rmse_deg": 0.6827807675397928,
+        "max_deg": 2.386313374105039,
+        "mean_deg": 0.5951017933811451
+      },
+      "complementary_gated": {
+        "rmse_deg": 0.6919999472004631,
+        "max_deg": 3.0386345792897176,
+        "mean_deg": 0.6030510301196869
+      },
+      "kalman": {
+        "rmse_deg": 1.1754009079126166,
+        "max_deg": 3.282135383505172,
+        "mean_deg": 0.9713524547849881
+      },
+      "kalman_gated": {
+        "rmse_deg": 1.1981453873234709,
+        "max_deg": 3.3499038104761896,
+        "mean_deg": 0.9878372129214138
+      }
+    },
+    "04_undisturbed_slow_rotation_with_breaks_A": {
+      "accel_only": {
+        "rmse_deg": 5.182953100738537,
+        "max_deg": 35.39973008014302,
+        "mean_deg": 4.084172918047844
+      },
+      "gyro_only": {
+        "rmse_deg": 18.401253730863747,
+        "max_deg": 29.976311780748567,
+        "mean_deg": 16.29915578128241
+      },
+      "complementary": {
+        "rmse_deg": 0.7409227124868888,
+        "max_deg": 2.4350986150494838,
+        "mean_deg": 0.6471134160023161
+      },
+      "complementary_gated": {
+        "rmse_deg": 0.7439141762617695,
+        "max_deg": 2.4450979658161147,
+        "mean_deg": 0.6502390035432688
+      },
+      "kalman": {
+        "rmse_deg": 0.8420975413046625,
+        "max_deg": 2.377469991283362,
+        "mean_deg": 0.7432598716169836
+      },
+      "kalman_gated": {
+        "rmse_deg": 0.8439698752382194,
+        "max_deg": 2.404617157488892,
+        "mean_deg": 0.7448419131750134
+      }
+    },
+    "07_undisturbed_fast_rotation_B": {
+      "accel_only": {
+        "rmse_deg": 22.364098934006808,
+        "max_deg": 176.82528658303457,
+        "mean_deg": 17.728585943318894
+      },
+      "gyro_only": {
+        "rmse_deg": 67.88816033574672,
+        "max_deg": 89.6986914290892,
+        "mean_deg": 64.64946492682296
+      },
+      "complementary": {
+        "rmse_deg": 9.172050881832297,
+        "max_deg": 27.400619455519266,
+        "mean_deg": 6.197289016631711
+      },
+      "complementary_gated": {
+        "rmse_deg": 10.48148910396367,
+        "max_deg": 30.14655134548418,
+        "mean_deg": 7.519319193061706
+      },
+      "kalman": {
+        "rmse_deg": 15.577780780022048,
+        "max_deg": 31.055565617862143,
+        "mean_deg": 13.526211771036166
+      },
+      "kalman_gated": {
+        "rmse_deg": 15.662645046339938,
+        "max_deg": 31.241439203469152,
+        "mean_deg": 13.62848668080256
+      }
+    },
+    "10_undisturbed_slow_translation_A": {
+      "accel_only": {
+        "rmse_deg": 12.515153318680307,
+        "max_deg": 39.6005473181762,
+        "mean_deg": 10.703269677379382
+      },
+      "gyro_only": {
+        "rmse_deg": 12.012256532482684,
+        "max_deg": 18.7083463273586,
+        "mean_deg": 11.190615890327278
+      },
+      "complementary": {
+        "rmse_deg": 3.0722727557737732,
+        "max_deg": 6.371174596200466,
+        "mean_deg": 2.7165248986920005
+      },
+      "complementary_gated": {
+        "rmse_deg": 2.996187843449941,
+        "max_deg": 6.5551738921316325,
+        "mean_deg": 2.6255730465202234
+      },
+      "kalman": {
+        "rmse_deg": 0.6694247076378539,
+        "max_deg": 2.050735148022617,
+        "mean_deg": 0.595333151342975
+      },
+      "kalman_gated": {
+        "rmse_deg": 0.759748492264599,
+        "max_deg": 3.3432495782319105,
+        "mean_deg": 0.6553658631645641
+      }
+    },
+    "13_undisturbed_slow_translation_with_breaks_A": {
+      "accel_only": {
+        "rmse_deg": 3.5710930271106798,
+        "max_deg": 32.1068070649824,
+        "mean_deg": 2.8778989108935984
+      },
+      "gyro_only": {
+        "rmse_deg": 15.901690312178669,
+        "max_deg": 25.469952794015207,
+        "mean_deg": 14.387877370045725
+      },
+      "complementary": {
+        "rmse_deg": 1.1184274651588002,
+        "max_deg": 3.8347145154645554,
+        "mean_deg": 0.9068186725126677
+      },
+      "complementary_gated": {
+        "rmse_deg": 1.1167588099928687,
+        "max_deg": 3.769878764435552,
+        "mean_deg": 0.9065059872442243
+      },
+      "kalman": {
+        "rmse_deg": 0.39346730762433996,
+        "max_deg": 2.3973768046677564,
+        "mean_deg": 0.3143006941918135
+      },
+      "kalman_gated": {
+        "rmse_deg": 0.39107615440849647,
+        "max_deg": 2.3973768046677564,
+        "mean_deg": 0.31246923700723533
+      }
+    },
+    "16_undisturbed_fast_translation_B": {
+      "accel_only": {
+        "rmse_deg": 72.82173798813908,
+        "max_deg": 179.7249911934058,
+        "mean_deg": 54.84274408543529
+      },
+      "gyro_only": {
+        "rmse_deg": 20.492894919785368,
+        "max_deg": 31.995186707916467,
+        "mean_deg": 19.12943701275305
+      },
+      "complementary": {
+        "rmse_deg": 12.090522735651748,
+        "max_deg": 39.41840485182242,
+        "mean_deg": 9.245833448790949
+      },
+      "complementary_gated": {
+        "rmse_deg": 44.76967784423705,
+        "max_deg": 92.41561090278599,
+        "mean_deg": 34.34886840255925
+      },
+      "kalman": {
+        "rmse_deg": 10.426847154336343,
+        "max_deg": 21.35774813029474,
+        "mean_deg": 9.646466470432317
+      },
+      "kalman_gated": {
+        "rmse_deg": 15.410328400993198,
+        "max_deg": 42.12068973084722,
+        "mean_deg": 13.12212190504451
+      }
+    },
+    "19_undisturbed_slow_combined_240s": {
+      "accel_only": {
+        "rmse_deg": 5.405593704335419,
+        "max_deg": 31.05413132280912,
+        "mean_deg": 4.476609448104693
+      },
+      "gyro_only": {
+        "rmse_deg": 6.408109652263212,
+        "max_deg": 9.794256663581516,
+        "mean_deg": 6.104860649832724
+      },
+      "complementary": {
+        "rmse_deg": 1.5181130318414395,
+        "max_deg": 4.528540722409116,
+        "mean_deg": 1.330205814797841
+      },
+      "complementary_gated": {
+        "rmse_deg": 1.518014229783287,
+        "max_deg": 4.528540722409116,
+        "mean_deg": 1.3301249963830308
+      },
+      "kalman": {
+        "rmse_deg": 2.823442394445536,
+        "max_deg": 4.990421343930339,
+        "mean_deg": 2.564576900695577
+      },
+      "kalman_gated": {
+        "rmse_deg": 2.8233525826446835,
+        "max_deg": 4.991960805608836,
+        "mean_deg": 2.564093634381911
+      }
+    },
+    "22_undisturbed_fast_combined_240s": {
+      "accel_only": {
+        "rmse_deg": 28.89420221304129,
+        "max_deg": 152.85592180228073,
+        "mean_deg": 24.540451295617757
+      },
+      "gyro_only": {
+        "rmse_deg": 9.056479727682351,
+        "max_deg": 22.00956346363804,
+        "mean_deg": 8.014268635069277
+      },
+      "complementary": {
+        "rmse_deg": 4.973227219959923,
+        "max_deg": 11.733600545869342,
+        "mean_deg": 4.385711638242435
+      },
+      "complementary_gated": {
+        "rmse_deg": 3.9128476963690937,
+        "max_deg": 9.439042805767574,
+        "mean_deg": 3.5082381072351043
+      },
+      "kalman": {
+        "rmse_deg": 4.14586174977495,
+        "max_deg": 10.749447033073233,
+        "mean_deg": 3.72828473362092
+      },
+      "kalman_gated": {
+        "rmse_deg": 4.302349140177129,
+        "max_deg": 10.62353999938785,
+        "mean_deg": 3.8084720246092933
+      }
+    },
+    "25_disturbed_tapping_B": {
+      "accel_only": {
+        "rmse_deg": 14.448777843915487,
+        "max_deg": 177.42001015710073,
+        "mean_deg": 9.761133384042997
+      },
+      "gyro_only": {
+        "rmse_deg": 57.61428357951546,
+        "max_deg": 85.00703979844656,
+        "mean_deg": 54.81391338378344
+      },
+      "complementary": {
+        "rmse_deg": 2.6299291459399696,
+        "max_deg": 6.783372872391411,
+        "mean_deg": 2.2257562659752246
+      },
+      "complementary_gated": {
+        "rmse_deg": 2.603323893872684,
+        "max_deg": 7.431228307368834,
+        "mean_deg": 2.18397282800876
+      },
+      "kalman": {
+        "rmse_deg": 0.6614805851877,
+        "max_deg": 1.433314060258624,
+        "mean_deg": 0.5784050372566673
+      },
+      "kalman_gated": {
+        "rmse_deg": 0.6771265155177164,
+        "max_deg": 1.5459865730235138,
+        "mean_deg": 0.5945655904631894
+      }
+    },
+    "28_disturbed_stationary_magnet_A": {
+      "accel_only": {
+        "rmse_deg": 37.1209918797404,
+        "max_deg": 161.1110913713434,
+        "mean_deg": 28.675445836704714
+      },
+      "gyro_only": {
+        "rmse_deg": 26.610423318910666,
+        "max_deg": 39.846887655762146,
+        "mean_deg": 25.640913825703684
+      },
+      "complementary": {
+        "rmse_deg": 6.182546018618772,
+        "max_deg": 19.011047291055494,
+        "mean_deg": 5.069553529886612
+      },
+      "complementary_gated": {
+        "rmse_deg": 7.881811396936732,
+        "max_deg": 21.056380162982748,
+        "mean_deg": 6.678165448983702
+      },
+      "kalman": {
+        "rmse_deg": 5.192377500668991,
+        "max_deg": 11.4638363029013,
+        "mean_deg": 4.544790711097045
+      },
+      "kalman_gated": {
+        "rmse_deg": 8.761288276682611,
+        "max_deg": 19.88352573620746,
+        "mean_deg": 7.420304623048723
+      }
+    },
+    "31_disturbed_stationary_magnet_D": {
+      "accel_only": {
+        "rmse_deg": 43.149284287380475,
+        "max_deg": 164.98963784111052,
+        "mean_deg": 34.3960789253602
+      },
+      "gyro_only": {
+        "rmse_deg": 27.23480395242662,
+        "max_deg": 37.31561972464427,
+        "mean_deg": 26.137463761486188
+      },
+      "complementary": {
+        "rmse_deg": 5.520121810321386,
+        "max_deg": 14.059261967253956,
+        "mean_deg": 4.59873571738783
+      },
+      "complementary_gated": {
+        "rmse_deg": 8.654244782061156,
+        "max_deg": 18.20532447011921,
+        "mean_deg": 7.768817994692719
+      },
+      "kalman": {
+        "rmse_deg": 5.4053278674323995,
+        "max_deg": 13.276053393857124,
+        "mean_deg": 4.7554732565387665
+      },
+      "kalman_gated": {
+        "rmse_deg": 10.135609971692674,
+        "max_deg": 27.556062401433124,
+        "mean_deg": 8.770721159017938
+      }
+    },
+    "34_disturbed_attached_magnet_3cm": {
+      "accel_only": {
+        "rmse_deg": 11.95631573060318,
+        "max_deg": 49.281074637986606,
+        "mean_deg": 10.036259049273973
+      },
+      "gyro_only": {
+        "rmse_deg": 6.228740443215218,
+        "max_deg": 11.43327052299545,
+        "mean_deg": 5.832085381157056
+      },
+      "complementary": {
+        "rmse_deg": 3.297047956488036,
+        "max_deg": 7.040011216798442,
+        "mean_deg": 2.887346926174309
+      },
+      "complementary_gated": {
+        "rmse_deg": 3.0390088292868898,
+        "max_deg": 6.323343248903215,
+        "mean_deg": 2.6816305474940667
+      },
+      "kalman": {
+        "rmse_deg": 2.044621801747734,
+        "max_deg": 6.885624021952557,
+        "mean_deg": 1.7478298494993894
+      },
+      "kalman_gated": {
+        "rmse_deg": 2.13899854072627,
+        "max_deg": 7.659616882254277,
+        "mean_deg": 1.8320819983137338
+      }
+    },
+    "37_disturbed_office_A": {
+      "accel_only": {
+        "rmse_deg": 13.542005203308836,
+        "max_deg": 80.4419357412459,
+        "mean_deg": 11.097431610255507
+      },
+      "gyro_only": {
+        "rmse_deg": 14.403332533974714,
+        "max_deg": 20.961799423456576,
+        "mean_deg": 13.286945645727005
+      },
+      "complementary": {
+        "rmse_deg": 3.0529962540082214,
+        "max_deg": 7.952905849380957,
+        "mean_deg": 2.611587231371497
+      },
+      "complementary_gated": {
+        "rmse_deg": 2.8015418536838244,
+        "max_deg": 7.4497785599038355,
+        "mean_deg": 2.416768283849299
+      },
+      "kalman": {
+        "rmse_deg": 3.3437389666460473,
+        "max_deg": 8.107918202782642,
+        "mean_deg": 2.919514901935087
+      },
+      "kalman_gated": {
+        "rmse_deg": 3.4985354660861554,
+        "max_deg": 8.174586893909575,
+        "mean_deg": 3.0351228700833763
+      }
+    }
+  },
+  "trials_skipped": [],
+  "split": "heldout",
+  "config": {
+    "gate": {
+      "use_gate": true,
+      "gate_ms2": 3.0,
+      "kalman_r_inflation": 1000.0
+    },
+    "complementary": {
+      "tau_s": 1.0
+    },
+    "kalman": {
+      "q_gravity": 1e-08,
+      "q_bias": 1e-10,
+      "r_measurement": 0.01,
+      "p0_gravity": 0.01,
+      "p0_bias": 0.01
+    }
+  },
+  "decimate": 3,
+  "versions": {
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "python": "3.14.4"
+  },
+  "date": "2026-10-10"
+}
